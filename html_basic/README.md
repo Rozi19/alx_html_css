@@ -1,4 +1,1 @@
-base_index.html:- contian a DOCTYPE
-                          a head:
-                          with a title
-                          a body
+base_index.html:- contian a DOCTYPE, a head: with a title, a body.
