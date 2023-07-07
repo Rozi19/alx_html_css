@@ -1,0 +1,68 @@
+
+body
+{
+display: flex;
+flex-direction: column;
+}
+header
+{
+    display: flex;
+    background-color: whitesmoke;
+}
+.logo
+{
+    padding: 14px 25px;
+}
+body h1,h2,h3
+{
+    color:blueviolet
+}
+a:hover
+{
+  color: blue;  
+}
+a
+{
+    background-color:bisque;
+    color: royalblue;
+    padding:  14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+main
+{
+display: flex;
+flex-direction: row;
+flex: auto;
+}
+
+footer
+{
+    display: flex;
+    background-color: whitesmoke
+}
+article
+{
+    
+    flex: 2;
+    overflow-y: auto;
+}
+aside
+{
+    
+    flex: 1;
+    overflow-y: auto;
+    background-color:cornsilk;
+}
+table th, tr, td
+{
+    border: 1px solid;
+    width: 50%;
+    text-align: left;
+    padding: 15px;
+}
+th 
+{
+    color:blueviolet;
+    font-weight: bold;
+}
