@@ -62,7 +62,12 @@ body {
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+article {
+}
+>>>>>>> b4c8e69b8293d69e32d3fda853d749f8cd40278f
 header {
 	border-bottom: 1px solid rgb(221,221,221);
 	transition: border-bottom-color 1s ease;
