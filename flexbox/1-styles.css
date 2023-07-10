@@ -311,10 +311,29 @@
   /* Section (all styles)
       ============================= */
   
-  .section {
+  .section-services{
     padding: var(--section-padding);
   }
-  
+  .section-works
+  {
+    padding: var(--section-padding);
+  }
+  .section-about-us
+  {
+    padding: var(--section-padding);
+  }
+  .section-latest-news
+  {
+    padding: var(--section-padding);
+  }
+  .section-testimonial
+  {
+    padding: var(--section-padding);
+  }
+  .section-contact
+  {
+    padding: var(--section-padding);
+  }
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
