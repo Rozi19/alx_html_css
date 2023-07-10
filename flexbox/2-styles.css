@@ -377,7 +377,7 @@
 
   .section-latest-news .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   /*** 4. CARD ***/
