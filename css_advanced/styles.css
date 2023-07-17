@@ -1,0 +1,321 @@
+body {
+    width: 1440px;
+    height: 3718px;
+    background-color: white ;
+    background-image: url(object.png);
+    color:white;
+    font-family:source sans pro;
+    font-style: normal;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+}
+button {
+    width: 162px;
+    height: 44px;
+    color:white;
+    border: none;
+    text-align: center;
+    background-color: #C271FF;
+    border-radius: 22px;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+.header {
+    width: 1103.408px;
+    height: 29.461px;
+    margin-left: 172px;
+    margin-right: 169px;
+    margin-top: 35px;
+    display:flex;
+    justify-content: space-between;
+}
+.header_links {
+    display: flex;
+    justify-content:left;
+    gap: 52px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.banner_section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.banner p, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+.banner h1 {
+    margin-top: 106px;
+    font-size:120px;
+    font-weight: 700;
+}
+.learn {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.learn h2 {
+    margin-bottom: 100px;
+    font-size: 32px;
+}
+.pros {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 139px;
+}
+.learn_pros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 104px;
+}
+.learn_pros img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px;
+}
+.learn_pros h2 {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0px;
+}
+.learn_pros p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+/*........quontes.........*/
+.main_quotes {
+    width: 1575px;
+    height: 392px;
+    background-color:#C271FF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotes {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.quotes q {
+    font-size: 22px;
+    font-weight: 400;
+    width: 730px;
+}
+.quotes h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.quotes p {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+}
+/*........video list.......*/
+.video {
+    width: 1575px;
+    height: 624px;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+   color:black
+}
+.video1 {
+    width: 255px;
+    height: 335px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   align-items: center;
+   gap: 30px;
+   margin-top: 50px;
+}
+.video_comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 255px;
+    height: 335px;
+    
+}
+.video_comment h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.video_comment p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    color:#C271FF;
+}
+.rating img{
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+}
+.rimg img{
+    width:107px;
+    height:15px;
+}
+/*...........Free membership.....*/
+.free_member {
+    width: 1575px;
+    height: 502px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#071629;
+    gap: 55px;
+}
+.members {
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+.member_smile {
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*............F.A.Q..........*/
+.FAQ {
+    width: 1575px;
+    height:858px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    gap: 74px;
+}
+.FAQ h1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 67px;
+}
+.fqa1 {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+    padding: 10px;
+
+}
+.fqa2 {
+    width: 350px;
+    height: 242px;
+}
+.fqa2 p{
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/*.........footer........*/
+/*...what we do section...*/
+/*... for icons...*/
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+}
+.footer {
+    width: 1575px;
+    height:349px; 
+    background-color: #071629;
+}
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+}
+.fmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 800px;
+    margin-top: 90px;
+}
+.fmain a{
+    color: #FFF;
+    font-family:Coiny;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.social_media {
+    width: 130px;
+    height: 30;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-size: 50px;
+    gap: 10px;
+
+}
