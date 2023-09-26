@@ -17,5 +17,16 @@ Implement HTML5 validation attributes to ensure all fields are required,<br>
 And the email field accepts a valid email format, and the password fields match.<br>
 Use appropriate input types (e.g., email, password) and labels for each field.<br>
 
+<h1>2. Subscription Form with Radio Buttons</h1>
+<br>
+Build an HTML form for a subscription with the following criteria:
+<br>
+Include fields for the user’s name, email, and subscription preference (monthly, yearly).<br>
+Utilize radio buttons for the subscription preference and ensure that the user can only select one option.<br>
+Apply HTML5 validation to ensure all fields are required and the email field accepts a valid email format.<br>
+
+
+
+
 
 
