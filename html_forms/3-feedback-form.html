@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check Box</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form method="post">
+            <ul style="list-style: none;">
+                <!--for user to enter there name-->
+                <li>
+                    <lable for="name">Full Name</lable><br>
+                    <input type="text" placeholder="Enter your full name">
+                </li>
+                <!--for user to enter there email-->
+                <li >
+                    <label for="email">Email Address</label><br>
+                    <input type="email" placeholder="Enter your email address"><br>
+                </li>
+                <!--checkboxes to capture user opinions-->
+                <li>
+                    <input type="checkbox" id="excellent" name="feedback">
+                    <lable for="excellent">Excellent</lable>
+                    <br>
+                    <input type="checkbox" id="Verygood" name="feedback">
+                    <lable for="Verygood">Verygood</lable>
+                    <br>
+                    <input type="checkbox" id="good" name="feedback">
+                    <lable for="good">Good</lable>
+                    <br>
+                    <input type="checkbox" id="poor" name="feedback">
+                    <lable for="Poor">Poor</lable>
+                </li>
+                <!-- For file upload-->
+                <li>
+                    <lable for="file">Upload File</lable><br>
+                    <input type="file" id="uploadfile" name="myfile">
+                </li>
+                <li>
+                    <button type="submit">Submit</button>
+                </li>
+
+            </ul>
+
+        </form>
+    </body>
+</html>
